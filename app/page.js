@@ -32,7 +32,12 @@ export default function Home() {
                             <div className="w-3 h-3 border-2 border-white rounded-full"></div>
                         </div>
                     </div>
-                    <video src="https://cdn.dribbble.com/userupload/2948070/file/original-dc48e2b911cb7df0969fc0d3206aab26.mp4" loop autoPlay  />
+                    <video src="https://cdn.dribbble.com/userupload/2948070/file/original-dc48e2b911cb7df0969fc0d3206aab26.mp4" 
+                      loop
+                      autoPlay
+                      muted
+                      playsInline
+                    />
                 </div>
             </div>
         </div>
